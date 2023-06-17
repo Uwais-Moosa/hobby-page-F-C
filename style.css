@@ -1,0 +1,120 @@
+body {
+	font-family: "Poppins", sans-serif;
+	color: white;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url("background.jpg") no-repeat center center fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+#navbar li a {
+	font-family: "Orbitron", sans-serif;
+}
+
+p,
+footer {
+	font-family: "Raleway", sans-serif;
+}
+
+#logo {
+	width: 150px;
+	height: 140px;
+	position: absolute;
+	top: -18px;
+	left: 20px;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 20px 0;
+	z-index: 1000;
+}
+
+#navbar {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	font-family: "Orbitron", sans-serif;
+	font-size: 1.1em;
+}
+
+#navbar li a {
+	color: white;
+	text-decoration: none;
+	margin: 0 15px;
+	transition: color 0.3s ease;
+}
+
+#navbar li a:hover {
+	color: #aaa;
+}
+
+#hero {
+	position: relative;
+	background: url("assets/hero-image.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 50px 0;
+}
+
+#hero h1 {
+	font-size: 3em;
+}
+
+#hero p {
+	font-size: 1.2em;
+}
+
+section {
+	text-align: center;
+	padding: 50px 0;
+	margin-bottom: 50px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 15px;
+}
+
+.section-content {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+section img {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+	margin-bottom: 20px;
+	border-radius: 15px;
+}
+
+section ul {
+	list-style-type: none;
+	text-indent: 1em;
+}
+
+section ul li:before {
+	content: "\21B3";
+	padding-right: 10px;
+}
+
+footer {
+	text-align: center;
+	font-family: "Orbitron", sans-serif;
+	padding: 20px 0;
+	border-top: 1px solid white;
+}
